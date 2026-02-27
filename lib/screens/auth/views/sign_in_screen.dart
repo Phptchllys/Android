@@ -49,7 +49,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   width: MediaQuery.of(context).size.width * 0.9,
                   child: MyTextField(
                       controller: emailController,
-                      hintText: 'User',
+                      hintText: 'Email',
                       obscureText: false,
                       keyboardType: TextInputType.emailAddress,
                       prefixIcon: const Icon(CupertinoIcons.mail_solid),
